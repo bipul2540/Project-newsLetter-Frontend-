@@ -36,6 +36,7 @@ a {
   text-decoration: none;
 }
 
+html,
 .disable-scroll {
   overflow-y: hidden;
 }
@@ -53,6 +54,7 @@ a {
 }
 
 @media (max-width: 768px) {
+  html,
   body {
     overflow-x: hidden;
   }

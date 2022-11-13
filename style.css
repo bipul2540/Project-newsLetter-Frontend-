@@ -33,6 +33,7 @@ a {
   text-decoration: none;
 }
 
+html,
 .disable-scroll {
   overflow-y: hidden;
 }
@@ -49,7 +50,8 @@ a {
   }
 }
 @media (max-width: 768px) {
-  body {
+  html,
+body {
     overflow-x: hidden;
   }
 }
